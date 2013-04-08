@@ -1,5 +1,4 @@
-from distutils.core import setup
- 
+from setuptools import setup
  
 setup(
     name = "django-templatetag-sugar",
@@ -13,6 +12,7 @@ setup(
     packages = [
         "templatetag_sugar",
     ],
+    test_suite="runtests.runtests",
     classifiers = [
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
