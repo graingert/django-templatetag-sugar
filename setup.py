@@ -12,6 +12,10 @@ setup(
     packages = [
         "templatetag_sugar",
     ],
+    install_requires = [
+        "Django>=1.3",
+        "six",
+    ],
     test_suite="runtests.runtests",
     classifiers = [
         "Development Status :: 3 - Alpha",
